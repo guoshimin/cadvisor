@@ -54,6 +54,8 @@ var allowDynamicHousekeeping = flag.Bool("allow_dynamic_housekeeping", true, "Wh
 
 var enableProfiling = flag.Bool("profiling", false, "Enable profiling via web interface host:port/debug/pprof/")
 
+var hello = "world"
+
 var (
 	// Metrics to be ignored.
 	// Tcp metrics are ignored by default.
